@@ -1,0 +1,215 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #ffff;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    height: 60px;
+    padding: 0 10%;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navbar-font {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.nav-menu {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.btn-src {
+    padding: 9px 25px;
+    padding-right: 0px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.input-search {
+    padding: 9px 25px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-img {
+    width: 30px;
+    height: 30px;
+}
+
+.form-search{
+    background-color: unset;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15%;
+}
+
+.title {
+    padding-right: 100px;
+}
+
+.gelas {
+    position: absolute;
+    left: 28%;
+    right: 65.92;
+    top: 77%;
+    bottom: 38.42%;
+}
+
+.judul-container {
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px;
+}
+
+.sub-container{
+    font-size: 30px;
+    font-weight: 100;
+    color: rgba(74, 85, 104, 1);
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 15%;
+}
+.content-1 {
+    padding-right: 200px;
+}
+
+.isi-content2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.judul-content {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.isi-content{
+    font-size: 14px;
+    font-weight: 50;
+    color : rgba(113, 128, 150, 1)
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.card {
+    width: 270px;
+    background: #fff;
+    border: 1px solid #fff;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.card-header img {
+    width: 269px;
+}
+
+.card-body {
+    padding: 30px 20px;
+    font-size: 18px;
+}
+
+.card-body p {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #777;
+}
+
+.card-body a {
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.terserah{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 15%;
+}
+
+.terserah-1{
+    padding-right: 230px;
+}
+
+.judul-terserah{
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px;
+}
+.isi-terserah2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo p {
+    padding: 10px;
+}
+
+.footer-container-1 {
+    list-style: none;
+}
+
+.footer-container-1 li {
+    display: inline-block;
+    padding: 0px 20px;
+}
